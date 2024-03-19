@@ -79,7 +79,7 @@ class MyUserController extends Controller
     public function create()
     {
         //
-        $Role = Role::all();
+        $Role = Role::orderby('id', 'desc')->get();
         $data['Role'] = $Role;
         $data['method'] = "post";
         $data['url'] = url('admin/MyUser');
@@ -154,7 +154,7 @@ class MyUserController extends Controller
         $data['url'] = url('admin/MyUser/'.$id);
         $data['method'] = "put";
         $data['objs'] = $objs;
-        $Role = Role::all();
+        $Role = Role::orderby('id', 'desc')->get();
         $data['Role'] = $Role;
         return view('admin.MyUser.edit', $data);
     }

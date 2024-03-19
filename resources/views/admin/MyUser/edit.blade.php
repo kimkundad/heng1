@@ -221,7 +221,6 @@
                                     <!--begin::Col-->
                                     <div class="col-lg-8 fv-row fv-plugins-icon-container">
                                         <select class="form-select" name="role" aria-label="Select example">
-                                            <option> -- กำหนด Role User -- </option>
                                             @isset($Role)
                                                 @foreach ($Role as $item)
                                                     <option value="{{ $item->id }}" 
