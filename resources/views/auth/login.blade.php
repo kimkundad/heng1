@@ -15,7 +15,7 @@
     <div class="chakra-container">
         <div id="content" class="flex ">
             <div class="box-height-20"></div>
-            <img class="img-fluid logo_website2" src="{{ url('/home/assets/img/heng1g/page 1/logo.png') }}">
+            <img class="img-fluid logo_website2" src="{{ url('/home/assets/img/heng1g/page_1/logo.png') }}">
             <form method="POST" id="myForm" action="{{ route('login') }}">
                 {{ csrf_field() }}
                 <div class="card-body" style="padding: 1.25rem 0.5rem;">
@@ -48,9 +48,9 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-center btn_sub">
-                        <a href="#" onclick="myFunction()" ><img class="img-fluid" src="{{ url('/home/assets/img/heng1g/page 1/login.png') }}" style="height: 40px;"></a>
+                        <a href="#" onclick="myFunction()" ><img class="img-fluid" src="{{ url('/home/assets/img/heng1g/page_1/login.png') }}" style="height: 40px;"></a>
                     </div>
-                    
+
                 </div>
             </form>
         </div>
