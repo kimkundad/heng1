@@ -19,13 +19,13 @@ span, p , li ,strong, option , label, input, a, b {
 }
 .bg-game-slot{
   background-image: url('../img/home2/page3/Template-_v2.png');
-    /* background-position: center center; home/assets/img/page6/Rectangle.png */ 
+    /* background-position: center center; home/assets/img/page6/Rectangle.png */
     background-size: contain;
     background-repeat: no-repeat;
 }
 .bg_login{
   position: relative;
-  background-image: url('../img/heng1g/page 1/login_box.png');
+  background-image: url('../img/heng1g/page_1/login_box.png');
   background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -152,7 +152,7 @@ span, p , li ,strong, option , label, input, a, b {
     width: 100px;
 }
 .chakra-container{
-    background-image: url('../img/heng1g/page 1/bg_1.png');
+    background-image: url('../img/heng1g/page_1/bg_1.png');
     /* background-position: center center; */
     background-size: cover;
     background-repeat: no-repeat;
@@ -178,7 +178,7 @@ span, p , li ,strong, option , label, input, a, b {
     padding-right: 0rem;
     min-height: 1200px;
   }
-  
+
   .chakra-container-page3{
     background-image: url('../img/heng1g/page 2/bg_2_2v2.png');
     /* background-position: center center; */
@@ -197,7 +197,7 @@ span, p , li ,strong, option , label, input, a, b {
 
 
   .chakra-container-page5{
-    background: url('../img/heng1g/page 3/bg 3.png') no-repeat center center fixed; 
+    background: url('../img/heng1g/page 3/bg 3.png') no-repeat center center fixed;
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -212,7 +212,7 @@ span, p , li ,strong, option , label, input, a, b {
 
   }
   .chakra-container-page6{
-    background: url('../img/heng1g/page 4/bg 4.png') no-repeat center center fixed; 
+    background: url('../img/heng1g/page 4/bg 4.png') no-repeat center center fixed;
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -230,7 +230,7 @@ span, p , li ,strong, option , label, input, a, b {
   @media (min-width: 991px) {
 
     /* .chakra-container-page3{
-      background: url('../img/heng1g/page 2/bg_2.png') no-repeat center center fixed; 
+      background: url('../img/heng1g/page 2/bg_2.png') no-repeat center center fixed;
       background-size: contain;
       background-position: center top;
       background-repeat: no-repeat;
@@ -242,11 +242,11 @@ span, p , li ,strong, option , label, input, a, b {
       max-width: 26rem;
       padding-left: 0rem;
       padding-right: 0rem;
-  
+
     } */
 
     .chakra-container-page5{
-      background: url('../img/heng1g/page 3/bg 3.png') no-repeat center center fixed; 
+      background: url('../img/heng1g/page 3/bg 3.png') no-repeat center center fixed;
       background-size: contain;
       background-position: center top;
       background-repeat: no-repeat;
@@ -258,11 +258,11 @@ span, p , li ,strong, option , label, input, a, b {
       padding-left: 0rem;
       padding-right: 0rem;
       min-height: 800px;
-  
+
     }
 
     .chakra-container-page6{
-      background: url('../img/heng1g/page 4/bg 4.png') no-repeat center center fixed; 
+      background: url('../img/heng1g/page 4/bg 4.png') no-repeat center center fixed;
       background-size: contain;
       background-position: center top;
       background-repeat: no-repeat;
@@ -274,7 +274,7 @@ span, p , li ,strong, option , label, input, a, b {
       padding-left: 0rem;
       padding-right: 0rem;
       min-height: 800px;
-  
+
     }
 
   }
