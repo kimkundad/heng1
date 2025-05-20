@@ -10,15 +10,15 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="author" content="heng1g">
     <meta name="keywords" content="">
-    {{-- <meta name="description" content="{{ get_facebook_detail() }}"> --}}
+    <meta name="description" content="{{ get_facebook_detail() }}">
     <title> @yield('title')</title>
     <link rel="icon" type="image/png" sizes="32x32" href="{{ url('img/favicon-32x32.png') }}" />
 
     <meta property="og:url"           content="https://heng1g.com/" />
     <meta property="og:type"          content="website" />
-    {{-- <meta property="og:title"         content="{{ get_title_facebook() }}" />
+    <meta property="og:title"         content="{{ get_title_facebook() }}" />
     <meta property="og:image"         content="{{ get_facebook_img() }}?v{{time()}}" />
-    <meta property="og:description"   content="{{ get_facebook_detail() }}" /> --}}
+    <meta property="og:description"   content="{{ get_facebook_detail() }}" />
 
     @include('layouts.inc-style')
     @yield('stylesheet')
